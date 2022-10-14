@@ -10,6 +10,7 @@ const Navigation = () => {
             <Nav>
               <Nav.Link href="/">Home</Nav.Link>
               <Nav.Link href="/teams">Teams</Nav.Link>
+              <Nav.Link href="/players">Players</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

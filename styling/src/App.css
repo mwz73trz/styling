@@ -50,3 +50,8 @@
   background-color: #efefef;
   padding: 6px;
 }
+.players-container {
+  margin-top: 100px;
+  width: 500px;
+  background-color: beige;
+}
