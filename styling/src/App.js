@@ -4,6 +4,7 @@ import Navigation from "./components/Navigation";
 import Home from "./components/Home";
 import Teams from "./components/Teams";
 import Players from "./components/Players";
+import DropDownList from "./components/DropDownList";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/teams" element={<Teams />} />
         <Route path="/players" element={<Players />} />
+        <Route path="/dropdownlist" element={<DropDownList />} />
       </Routes>
     </div>
   );
